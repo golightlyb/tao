@@ -43,14 +43,15 @@ Implemented:
 * Autocannon (coaxial only)
 * Artillery (turret only, slow rotation, high damage vs hull)
 * Micro-Missile launcher (coaxial only, seeking)
+* Disruptor (coaxial only, high damage vs shields)
 
 Planned:
 
 * Laser beam (turret only)
-* Disruptor (coaxial only, high damage vs shields)
+* Pulse beam (turret only); up to 33% chance to bypass shields depending on rarity; bonus vs tech blocks, very weak vs everything else
 * Particle Lance (coaxial size 10 only)
-* Point defense (laser, gun, flak)
-
+* Point defense (laser, flak)
+* Ion mines (basically a really slow but massive projectile)
 
 Subsystems
 -----------
@@ -61,5 +62,8 @@ Planned:
 
 * Deflector (boost shield resistance against physical attacks, high energy cost)
 * Polariser (boost shield resistance against disruptor, high energy cost)
-* Reinforced armor (boost hull HP but decrease cargo space)
+* Reinforced armor refit (boost hull HP but decrease cargo space)
+* Low armor refit (boost cargo space & acceleration but decrease hull HP)
 * Chaff (manually activated anti-torpedo button with limited uses until recharged)
+* Cloaking device (manually activated) ?
+
