@@ -1,27 +1,28 @@
 # Tao - Total Avorion Overhaul
 
-Toa is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
+Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
 
-Goal
+Features
 ----
 
-* less focus on managing heaps of random loot
-   - fewer mob drops
-   - no special weapon variants e.g. no random "plus %x against shields"
-   - reduce the 52 "tech levels" into fewer buckets
-   - main progression is weapon rarity, size, and type e.g. barrel count
-* better performance
-* combat rebalance
-  - fewer weapons and subsystems, but with clearer roles
-  - meaningful big, slow, high recoil main guns
-  - fun coaxial weapons from the start
-  - shields are always impenetrable to most weapons (excl. torpedos)
-  - vastly reduced turret slots
-    - BUT: bigger sized guns don't take up more slots
-  - meaningful weapon types e.g. double-cannons are always better than single-cannons
+* **inventory**
+   - less focus on managing heaps of random loot
+   - reduced trading goods from more than 150 to just 35.
+   - fewer weapons and subsystems, but with clearer roles
+   - no randomised weapon or system bonuses or variants.
+   - main progression is material & rarity
+* **performance**
   - fighters removed entirely
-* fewer goods types
-* remove the story / alternate story
+* **combat**
+  - fewer guns with clearer roles
+  - fun coaxial weapons from the start
+  - slowly-rotating main guns for battleship style combat
+  - vastly reduced turret slots, but...
+    - weapons don't take up more slots as they get bigger
+    - so you have fewer weapons
+    - but as you progress those weapons can get bigger and better
+* **story**
+   - blank slate with existing story removed completely
 
 Status
 ------
@@ -29,23 +30,11 @@ Status
 WIP but should be playable.
 Manually install to your mod folder only.
 
-Current Features
----------------
 
-* All vanilla weapons and subsystems removed
-* Some new weapons and subsystems
+<!--//
+TODO
 
-Weapons
--------
-
-Implemented:
-
-* Autocannon (coaxial only)
-* Artillery (turret only, slow rotation, high damage vs hull)
-* Micro-Missile launcher (coaxial only, seeking)
-* Disruptor (coaxial only, high damage vs shields)
-
-Planned:
+Weapons:
 
 * Laser beam (turret only)
 * Pulse beam (turret only); up to 33% chance to bypass shields depending on rarity; bonus vs tech blocks, very weak vs everything else
@@ -53,12 +42,7 @@ Planned:
 * Point defense (laser, flak)
 * Ion mines (basically a really slow but massive projectile)
 
-Subsystems
------------
-
-* Ship core (one-per-ship) - basic system that adds a modest starting ammount of everything
-
-Planned:
+Subsystems:
 
 * Deflector (boost shield resistance against physical attacks, high energy cost)
 * Polariser (boost shield resistance against disruptor, high energy cost)
@@ -67,3 +51,4 @@ Planned:
 * Chaff (manually activated anti-torpedo button with limited uses until recharged)
 * Cloaking device (manually activated) ?
 
+//-->
