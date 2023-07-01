@@ -12,7 +12,10 @@ Features
    - no randomised weapon or system bonuses or variants.
    - main progression is material & rarity
 * **performance**
-  - fighters removed entirely
+  - removed fighters
+  - removed container fields
+  - fewer wreckages
+  - fewer but richer asteroids
 * **combat**
   - fewer guns with clearer roles
   - fun coaxial weapons from the start
