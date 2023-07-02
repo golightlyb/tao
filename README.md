@@ -2,6 +2,8 @@
 
 Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
 
+Status: economy broken pending total conversion
+
 Features
 ----
 
