@@ -9,7 +9,7 @@ Features
 
 * **inventory**
    - less focus on managing heaps of random loot
-   - reduced trading goods from more than 150 to just 35.
+   - reduced trading goods from more than 150 to less than 50.
    - fewer weapons and subsystems, but with clearer roles
    - no randomised weapon or system bonuses or variants.
    - main progression is material & rarity
