@@ -2,7 +2,7 @@
 
 Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
 
-Status: economy broken pending total conversion
+Status: economy and sector populations broken pending total conversion
 
 Features
 ----
@@ -18,6 +18,7 @@ Features
   - removed container fields
   - fewer wreckages
   - fewer but richer asteroids
+  - some expensive shaders simplified
 * **combat**
   - fewer guns with clearer roles
   - fun coaxial weapons from the start
@@ -28,6 +29,10 @@ Features
     - but as you progress those weapons can get bigger and better
 * **story**
    - blank slate with existing story removed completely
+   - may be extended by other mods in future
+ * **overhaul**
+   - completely new goods, systems, weapons, stations, events, sectors, etc.
+  
 
 Status
 ------
