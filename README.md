@@ -19,6 +19,7 @@ Features
   - fewer wreckages
   - fewer but richer asteroids
   - some expensive shaders simplified
+  - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
 * **combat**
   - fewer guns with clearer roles
   - fun coaxial weapons from the start
