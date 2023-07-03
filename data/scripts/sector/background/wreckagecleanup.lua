@@ -1,2 +1,0 @@
-
-maxWreckages = 25
