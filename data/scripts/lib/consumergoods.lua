@@ -1,16 +1,32 @@
 
 ConsumerGoods = {}
 
-function ConsumerGoods.Spacedock()
+function ConsumerGoods.XSpacedock()
     return {
         "XAmmunition",
         "XArmor",
+        "XEnrichedUranium",
         "XMetal",
         "XSystem",
         "XWarhead",
     }
 end
 
+function ConsumerGoods.XRefinery()
+    return {
+        "XChemicals",
+        "XUraniumEnriched",
+        "XRobot",
+    }
+end
+
+function ConsumerGoods.XOreProcessor()
+    return {
+        "XChemicals",
+        "XUraniumEnriched",
+        "XRobot",
+    }
+end
 
 function ConsumerGoods.Habitat()
     return {"XCarbs",} -- placeholder

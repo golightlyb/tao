@@ -20,7 +20,7 @@ function SectorSpecifics:addBaseTemplates()
     --self:addTemplate("sectors/piratefight")
     --self:addTemplate("sectors/piratestation")
 
-    --self:addTemplate("sectors/asteroidfield")
+    self:addTemplate("sectors/asteroidfield")
     --self:addTemplate("sectors/smallasteroidfield")
     --self:addTemplate("sectors/defenderasteroidfield")
     --self:addTemplate("sectors/wreckagefield")

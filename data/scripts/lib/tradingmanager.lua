@@ -107,6 +107,8 @@ end
 --]]
 
 
+---- updated UI with left/right page buttons
+
 function TradingManager:onPageLeftButtonPressed()
 end
 
@@ -242,6 +244,43 @@ function TradingManager:buildGui(window, guiType)
 end
 
 
+---- fix looking up goods
+
+old_TradingManager_getNumGoods = TradingManager.getNumGoods
+function TradingManager:getNumGoods(name)
+    name = GetGoodID(name) -- not name!
+    return old_TradingManager_getNumGoods(self, name)
+end
+
+old_TradingManager_getMaxGoods = TradingManager.getMaxGoods
+function TradingManager:getMaxGoods(name)
+    name = GetGood(name).name
+    return old_TradingManager_getMaxGoods(self, name)
+end
+
+local old_TradingManager_getGoodSize = TradingManager.getGoodSize
+function TradingManager:getGoodSize(name)
+    name = GetGood(name).name
+    return old_TradingManager_getGoodSize(self, name)
+end
+
+local old_TradingManager_increaseGoods = TradingManager.increaseGoods
+function TradingManager:increaseGoods(name, delta)
+    name = GetGood(name).name
+    return old_TradingManager_increaseGoods(self, name, delta)
+end
+
+local old_TradingManager_decreaseGoods = TradingManager.decreaseGoods
+function TradingManager:decreaseGoods(name, amount)
+    name = GetGood(name).name
+    return old_TradingManager_decreaseGoods(self, name, amount)
+end
+
+function TradingManager:updateOrganizeGoodsBulletins(timeStep)
+end
+
+function TradingManager:updateDeliveryBulletins(timeStep)
+end
 
 function PublicNamespace.CreateNamespace()
     local result = {}
@@ -271,10 +310,6 @@ function PublicNamespace.CreateNamespace()
     result.increaseGoods = function(...) return trader:increaseGoods(...) end
     result.sellToShip = function(...) return trader:sellToShip(...) end
     result.buyFromShip = function(...) return trader:buyFromShip(...) end
-    
-    -- added
-    result.onPageRightButtonPressed = function(...) return trader:onPageRightButtonPressed(...) end
-    result.onPageLeftButtonPressed = function(...) return trader:onPageLeftButtonPressed(...) end
     
     result.onSellButtonPressed = function(...) return trader:onSellButtonPressed(...) end
     result.onBuyButtonPressed = function(...) return trader:onBuyButtonPressed(...) end
@@ -308,6 +343,10 @@ function PublicNamespace.CreateNamespace()
     result.getTax = function() return trader:getTax() end
     result.getFactionPaymentFactor = function() return trader:getFactionPaymentFactor() end
 
+    -- added
+    result.onPageRightButtonPressed = function(...) return trader:onPageRightButtonPressed(...) end
+    result.onPageLeftButtonPressed = function(...) return trader:onPageLeftButtonPressed(...) end
+    
     -- the following comment is important for a unit test
     -- Dynamic Namespace result
     callable(result, "sendGoods")

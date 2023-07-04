@@ -38,8 +38,20 @@ function SectorGenerator:createWreckage(faction, plan, breaks, position)
 end
 
 function SectorGenerator:xCreateSpacedock(faction)
-    local station = self:xCreateStation(faction, StationSubType.RepairDock, "data/scripts/entity/merchants/spacedock.lua")
+    local station = self:xCreateStation(faction, StationSubType.RepairDock, "data/scripts/entity/merchants/xSpacedock.lua")
     ShipUtility.addArmedTurretsToCraft(station)
+    station.crew = station.idealCrew
+    return station
+end
+
+function SectorGenerator:xRefinery(faction)
+    local station = self:xCreateStation(faction, StationSubType.ResourceDepot, "data/scripts/entity/merchants/xRefinery.lua")
+    station.crew = station.idealCrew
+    return station
+end
+
+function SectorGenerator:xOreProcessor(faction)
+    local station = self:xCreateStation(faction, StationSubType.ResourceDepot, "data/scripts/entity/merchants/xOreProcessor.lua")
     station.crew = station.idealCrew
     return station
 end

@@ -3,19 +3,13 @@ function SectorTemplate.contents(x, y)
     math.randomseed(seed);
 
     local random = random()
-    local contents = {ships = 0, stations = 0, seed = tostring(seed)}
+    local contents = {ships = 3, stations = 3, seed = tostring(seed)}
 
-    --contents.mines = 1
-    --contents.equipmentDocks = -
-    --contents.resourceDepots = 0
-    -- contents.shipyards = 1
-    -- contents.repairDocks = 1
-
-    contents.defenders = 2
-
-    contents.ships = contents.defenders
-    contents.stations = 1
-
+    contents.xSpacedock = 1
+    contents.xRefinery  = 1
+    contents.xFactories = 1
+    contents.defenders = 3
+    
     return contents, random
 end
 
@@ -43,8 +37,9 @@ function SectorTemplate.generate(player, seed, x, y)
     --local station = generator:createEquipmentDock(faction)
     --station:removeScript("data/scripts/entity/merchants/fightermerchant.lua")
     
-    local station = generator:xCreateSpacedock(faction)
-    station.position = mat
+    local station1 = generator:xCreateSpacedock(faction)
+    local station2 = generator:xRefinery(faction)
+    local station3 = generator:xOreProcessor(faction)
     
     --local station = generator:createStation(faction, "data/scripts/entity/merchants/resourcetrader.lua");
     --station.position = mat
@@ -54,7 +49,7 @@ function SectorTemplate.generate(player, seed, x, y)
     --local asteroid = generator:createClaimableAsteroid()
     --asteroid.position = mat
 
-    for i = 1, 2 do
+    for i = 1, 3 do
         ShipGenerator.createDefender(faction, generator:getPositionInSector())
     end
 
@@ -71,7 +66,7 @@ function SectorTemplate.generate(player, seed, x, y)
     Placer.resolveIntersections()
     generator:deleteObjectsFromDockingPositions()
 
-    return {defenders = 2}
+    return {defenders = 3}
 end
 
 

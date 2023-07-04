@@ -18,50 +18,16 @@ function FactoryMap:initialize()
 end
 
 function FactoryMap:predictConsumptions(x, y, contents)
-    local habitats = contents.habitats or 0
-    local biotopes = contents.biotopes or 0
-    local casinos = contents.casinos or 0
-    local equipmentDocks = contents.equipmentDocks or 0
-    local shipyards = contents.shipyards or 0
-    local repairDocks = contents.repairDocks or 0
-    local militaryOutposts = contents.militaryOutposts or 0
-    local researchStations = contents.researchStations or 0
-    local travelHubs = contents.travelHubs or 0
-    local mines = contents.mines or 0
 
     local consumptions = {}
 
-    for i = 1, habitats do
-        table.insert(consumptions, {goods = ConsumerGoods.Habitat()})
+    for i = 1, (contents.xSpacedock or 0) do
+        table.insert(consumptions, {goods = ConsumerGoods.XSpacedock()})
     end
-    for i = 1, biotopes do
-        table.insert(consumptions, {goods = ConsumerGoods.Biotope()})
+    for i = 1, (contents.xRefinery or 0) do
+        table.insert(consumptions, {goods = ConsumerGoods.XRefinery()})
     end
-    for i = 1, casinos do
-        table.insert(consumptions, {goods = ConsumerGoods.Casino()})
-    end
-    for i = 1, equipmentDocks do
-        table.insert(consumptions, {goods = ConsumerGoods.EquipmentDock()})
-    end
-    for i = 1, shipyards do
-        table.insert(consumptions, {goods = ConsumerGoods.Shipyard()})
-    end
-    for i = 1, repairDocks do
-        table.insert(consumptions, {goods = ConsumerGoods.RepairDock()})
-    end
-    for i = 1, militaryOutposts do
-        table.insert(consumptions, {goods = ConsumerGoods.MilitaryOutpost()})
-    end
-    for i = 1, researchStations do
-        table.insert(consumptions, {goods = ConsumerGoods.ResearchStation()})
-    end
-    for i = 1, travelHubs do
-        table.insert(consumptions, {goods = ConsumerGoods.TravelHub()})
-    end
-    for i = 1, mines do
-        table.insert(consumptions, {goods = ConsumerGoods.Mine()})
-    end
-
+    
     if #consumptions == 0 then return nil end
 
     return consumptions
@@ -73,12 +39,6 @@ function FactoryMap:predictSellers(x, y, contents)
     return nil
 end
 
-function FactoryMap:predictProductions(x, y, contents)
-    -- TODO
-    return nil
-end
-
---[[
 function FactoryMap:predictProductions(x, y, contents)
 
     local factories = contents.factories or 0
@@ -102,5 +62,5 @@ function FactoryMap:predictProductions(x, y, contents)
 
     return totalProductions
 end
---]]
+
 

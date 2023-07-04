@@ -11,13 +11,52 @@ local xGood = {}
 local xStat = {}
 local xIcon = {}
 
+-- Avorion is inconsistent getting a good by ID or Name
+function GetGood(idOrName)
+    local g = goods[idOrName]
+    if g then return g end
+    k = goodsKeyFromName[idOrName]
+    if k then
+        g = goods[k]
+        if g then return g end
+    end
+    eprint("GetGood: no such good with ID or name "..idOrName)
+    return goods["XMissing"]
+end
+
+function GetGoodID(idOrName)
+    local g = goods[idOrName]
+    if g then return idOrName end
+    k = goodsKeyFromName[idOrName]
+    if k then return k end
+    eprint("GetGoodID: no such good with ID or name "..idOrName)
+    return "XMissing"
+end
+
+function GoodIDFromName(name)
+    local goodID = goodsKeyFromName[name]
+    if goodID == nil then
+        eprint("GoodIDFromName: no such good with name " .. name)
+        return
+    end
+    return goodID
+end
+
 function GoodFromName(name)
-    good = goodsKeyFromName(name)
-    if good == nil then
+    local goodID = goodsKeyFromName[name]
+    if goodID == nil then
         eprint("GoodFromName: no such good with name " .. name)
+        return
+    end
+    local good = goods[goodID]
+    if goodID == nil then
+        eprint("GoodFromName: no such good with name " .. name)
+        return
     end
     return good
 end
+
+
 
 
 
@@ -56,7 +95,7 @@ xStat["XWasteToxic"]        = {price=    1, size= 10, level= 2, importance= 0, l
 xStat["XWasteRadioactive"]  = {price=    1, size= 10, level= 3, importance= 0, law={"D"},       tags={"I"},         chains={"I","M"}}
 xStat["XWater"]             = {price=    8, size=200, level= 0, importance=10, law=nil,         tags={"B","C","I"}, chains={"B","C","I"}}
 xStat["XWire"]              = {price=   15, size= 10, level= 2, importance=10, law=nil,         tags={"I","T"},     chains={"I","M","T"}}
-
+xStat["XError"]             = {price=    1, size=  1, level= 0, importance= 0, law=nil,         tags={},            chains={}}
 --
 xGood["XAmmunition"]        ={name="Ammunition",        description="Crates of military-grade ammo."}
 xGood["XArmor"]             ={name="Armour",            description="Large heavy armour plates for ships, stations, and vehicles."}
@@ -86,7 +125,7 @@ xGood["XWasteToxic"]        ={name="Toxic waste",       description="A hazzardou
 xGood["XWasteRadioactive"]  ={name="Radioactive waste", description="A byproduct of nuclear processing."}
 xGood["XWater"]             ={name="Water",             description="A tank full of clear water."}
 xGood["XWire"]              ={name="Wire",              description="A large coil of conductive wire."}
-
+xGood["XError"]             ={name="Error",             description="You shouldn't see this!"}
 --
 xIcon["XAmmunition"]        ={icon="ammo-box.png",              mesh="crate-01.obj"}
 xIcon["XArmor"]             ={icon="metal-scales.png",          mesh="metal-plate.obj"}
@@ -100,7 +139,7 @@ xIcon["XComputer"]          ={icon="computation-mainframe.png", mesh="crate-01.o
 xIcon["XDisplay"]           ={icon="checkbox-tree.png",         mesh="crate-01.obj"}
 xIcon["XElectronics"]       ={icon="microchip.png",             mesh="crate-01.obj"}
 xIcon["XGas"]               ={icon="bio-gas.png",               mesh="crate-gas.obj"}
-xIcon["XLens"]              ={icon="high-capacity-lens",        mesh="crate-01.obj"}
+xIcon["XLens"]              ={icon="high-capacity-lens.png",    mesh="crate-01.obj"}
 xIcon["XMedical"]           ={icon="medical-supplies.png",      mesh="medical-supplies.obj"}
 xIcon["XMetal"]             ={icon="i-beam.png",                mesh="metal-plate.obj"}
 xIcon["XMetalAdvanced"]     ={icon="metal-bar.png",             mesh="crate-01.obj"}
@@ -116,7 +155,7 @@ xIcon["XWasteToxic"]        ={icon="toxic-waste.png",           mesh="toxic-wast
 xIcon["XWasteRadioactive"]  ={icon="radioactive.png",           mesh="toxic-waste.obj"}
 xIcon["XWater"]             ={icon="water.png",                 mesh="crate-liquids.obj"}
 xIcon["XWire"]              ={icon="wire.png",                  mesh="crate-01.obj"}
-
+xIcon["XError"]             ={icon="cancel.png",                mesh="toxic-waste.obj"}
 
 
 
