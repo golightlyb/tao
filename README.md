@@ -33,6 +33,9 @@ Features
    - may be extended by other mods in future
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
+ * **quality of life enhancements**
+   - hidden stashes can now be interacted with at transporter range
+   - some Avorion bug fixes
   
 
 Status
