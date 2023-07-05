@@ -5,7 +5,7 @@ function ConsumerGoods.XSpacedock()
     return {
         "XAmmunition",
         "XArmor",
-        "XEnrichedUranium",
+        "XUraniumEnriched",
         "XMetal",
         "XSystem",
         "XWarhead",

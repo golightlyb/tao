@@ -37,6 +37,12 @@ function SectorGenerator:createWreckage(faction, plan, breaks, position)
     return unpack(wreckages)
 end
 
+local function removeBulletinBoard(station)
+    station:removeScript("bulletinboard.lua")
+    station:removeScript("missionbulletins.lua")
+    station:removeScript("story/bulletins.lua")
+end
+
 function SectorGenerator:xCreateSpacedock(faction)
     local station = self:xCreateStation(faction, StationSubType.RepairDock, "data/scripts/entity/merchants/xSpacedock.lua")
     ShipUtility.addArmedTurretsToCraft(station)
@@ -52,6 +58,12 @@ end
 
 function SectorGenerator:xOreProcessor(faction)
     local station = self:xCreateStation(faction, StationSubType.ResourceDepot, "data/scripts/entity/merchants/xOreProcessor.lua")
+    station.crew = station.idealCrew
+    return station
+end
+
+function SectorGenerator:xTradingpost(faction)
+    local station = self:xCreateStation(faction, StationSubType.TradingPost, "data/scripts/entity/merchants/tradingpost.lua")
     station.crew = station.idealCrew
     return station
 end
@@ -92,7 +104,8 @@ function SectorGenerator:xCreateStation(faction, styleName, scriptPath, ...)
     end
 
     self:postStationCreation(station)
-
+    removeBulletinBoard(station)
+    
     return station
 end
 

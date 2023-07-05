@@ -74,7 +74,7 @@ xStat["XCarbs"]             = {price=   23, size= 10, level= 0, importance=10, l
 xStat["XChemicals"]         = {price=   12, size=200, level= 1, importance=10, law={"D"},       tags={"I"},         chains={"C","I","M","T"}}
 xStat["XCivilLuxury"]       = {price=  268, size= 10, level= 2, importance= 3, law=nil,         tags={"C"},         chains={"C"}}
 xStat["XCivilNormal"]       = {price=   42, size= 10, level= 2, importance= 3, law=nil,         tags={"C"},         chains={"C"}}
-xStat["XCivilIllegal"]      = {price=  600, size= 10, level= 2, importance= 3, law="I",         tags={"C"},         chains={"C"}}
+xStat["XCivilIllegal"]      = {price=  600, size= 10, level= 2, importance= 3, law=nil,         tags={"C"},         chains={"C"}} -- marked as stolens at time of production
 xStat["XElectronics"]       = {price=  200, size= 10, level= 2, importance= 2, law=nil,         tags={"T"},         chains={"C","I","M","T"}}
 xStat["XComputer"]          = {price=  292, size= 10, level= 3, importance= 2, law=nil,         tags={"T"},         chains={"I","M","T"}}
 xStat["XDisplay"]           = {price=  210, size= 10, level= 4, importance= 2, law=nil,         tags={"T"},         chains={"I","M","T"}}

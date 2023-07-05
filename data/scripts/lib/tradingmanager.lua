@@ -1,4 +1,25 @@
 
+
+local old_TradingManager_initializeTrading = TradingManager.initializeTrading
+function TradingManager:initializeTrading(boughtGoodsIn, soldGoodsIn, policiesIn)
+
+    if not policiesIn then
+        policiesIn = {
+            -- we use illegal as a standin for "military goods".
+            sellsIllegal = true,
+            buysIllegal  = true,
+
+            sellsStolen = false,
+            buysStolen = false,
+
+            sellsSuspicious = false,
+            buysSuspicious = false,
+        }
+    end
+
+    old_TradingManager_initializeTrading(self, boughtGoodsIn, soldGoodsIn, policiesIn)
+end
+
 --[[
 function TradingManager:updateBoughtGoodGui(index, good, price)
     if not self.guiInitialized then return end
