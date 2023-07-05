@@ -8,23 +8,9 @@ function SectorTemplate.contents(x, y)
 
     local contents = {ships = 0, stations = 0, seed = tostring(seed)}
 
-    contents.shipyards              = 0
-    contents.resourceDepots         = 0
-    contents.repairDocks            = 0
-    contents.equipmentDocks         = 0
-    contents.factories              = 0
-    contents.tradingPosts           = 0
-    contents.turretFactories        = 0
-    contents.turretFactorySuppliers = 0
-    contents.fighterFactories       = 0
-    contents.neighborTradingPosts   = 0
-    contents.headquarters           = 0
-    contents.casinos                = 0
-    contents.biotopes               = 0
-    contents.habitats               = 0
-    contents.researchStations       = 0
-    contents.travelHubs             = 0
-    contents.militaryOutposts       = 0
+    contents.xSpacedock = 1
+    contents.xRefinery  = 1
+    contents.xFactories = 1
 
     local sx = x + random:getInt(-15, 15)
     local sy = y + random:getInt(-15, 15)
@@ -53,7 +39,7 @@ function SectorTemplate.contents(x, y)
 
     contents.defenders  = round(6 * defendersFactor)
     contents.ships      = contents.defenders
-    contents.stations   = 0
+    contents.stations   = contents.xSpacedock + contents.xRefinery + contents.xFactories
 
     if onServer() then
         contents.faction = faction.index
@@ -76,7 +62,10 @@ function SectorTemplate.generate(player, seed, x, y)
     local generator = SectorGenerator(x, y)
 
     -- create stations
-    --generator:createShipyard(faction);
+    local station1 = generator:xCreateSpacedock(faction)
+    local station2 = generator:xRefinery(faction)
+    local station3 = generator:xOreProcessor(faction) -- TODO any factory
+    
     --generator:createStation(faction, "data/scripts/entity/merchants/resourcetrader.lua");
     --generator:createRepairDock(faction);
 
@@ -84,10 +73,10 @@ function SectorTemplate.generate(player, seed, x, y)
     -- local productions = FactoryPredictor.generateFactoryProductions(x, y, 3, false)
 
     local containerStations = {}
-    for _, production in pairs(productions) do
+    -- for _, production in pairs(productions) do
         --local station = generator:createStation(faction, "data/scripts/entity/merchants/factory.lua", production);
         --table.insert(containerStations, station)
-    end
+    -- end
 
     -- maybe create some asteroids
     local numFields = random:getInt(0, 1)

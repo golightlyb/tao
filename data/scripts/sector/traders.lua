@@ -1,6 +1,12 @@
 
 if onServer() then
 
+
+    function Traders.getUpdateInterval()
+        --return 3 -- for testing
+        return 60 -- default
+    end
+
     function Traders.update(timeStep)
 
         local sector = Sector()

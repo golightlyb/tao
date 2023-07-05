@@ -3,12 +3,13 @@ function SectorTemplate.contents(x, y)
     math.randomseed(seed);
 
     local random = random()
-    local contents = {ships = 3, stations = 3, seed = tostring(seed)}
+    local contents = {ships = 3, stations = 4, seed = tostring(seed)}
 
     contents.xSpacedock = 1
     contents.xRefinery  = 1
     contents.xFactories = 1
-    contents.defenders = 3
+    contents.xTraders   = 1
+    contents.defenders  = 3
     
     return contents, random
 end
@@ -25,7 +26,8 @@ function SectorTemplate.generate(player, seed, x, y)
     -- create asteroid fields
     local numSmallFields = 5
     for i = 1, numSmallFields do
-        generator:createSmallAsteroidField()
+        local mat = generator:createSmallAsteroidField()
+        if i <= 2 then generator:createStash(mat) end
     end
 
     -- local station = generator:xCreateSpacedock(faction)
@@ -40,6 +42,7 @@ function SectorTemplate.generate(player, seed, x, y)
     local station1 = generator:xCreateSpacedock(faction)
     local station2 = generator:xRefinery(faction)
     local station3 = generator:xOreProcessor(faction)
+    local station4 = generator:xTradingpost(faction)
     
     --local station = generator:createStation(faction, "data/scripts/entity/merchants/resourcetrader.lua");
     --station.position = mat
@@ -55,7 +58,7 @@ function SectorTemplate.generate(player, seed, x, y)
 
     generator:createGates()
 
-    Sector():addScriptOnce("data/scripts/sector/eventscheduler.lua", "events/pirateattack.lua")
+    -- Sector():addScriptOnce("data/scripts/sector/eventscheduler.lua", "events/pirateattack.lua")
     Sector():addScript("data/scripts/sector/background/respawnresourceasteroids.lua")
 
     generator:addAmbientEvents()
