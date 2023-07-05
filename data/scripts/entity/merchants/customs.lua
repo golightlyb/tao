@@ -30,6 +30,7 @@ function Customs.initialize()
         if station.title == "" then
             station.title = "Customs"%_t
         end
+        station:addScriptOnce("data/scripts/entity/merchants/customslicense.lua")
     end
     
     if onClient() then

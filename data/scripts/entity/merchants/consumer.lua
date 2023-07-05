@@ -1,4 +1,9 @@
 
+function Consumer.updateServer(timeStep)
+    Consumer.useUpBoughtGoods(timeStep)
+    --Consumer.updateOrganizeGoodsBulletins(timeStep)
+end
+
 function Consumer.initialize(name_in, ...)
 
     local entity = Entity()
