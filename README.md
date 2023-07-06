@@ -13,6 +13,7 @@ Features
    - fewer weapons and subsystems, but with clearer roles
    - no randomised weapon or system bonuses or variants.
    - main progression is material & rarity
+
 * **performance**
   - removed fighters
   - removed container fields
@@ -20,6 +21,8 @@ Features
   - fewer but richer asteroids
   - some expensive shaders simplified
   - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
+  - bug fixes
+
 * **combat**
   - fewer guns with clearer roles
   - fun coaxial weapons from the start
@@ -28,15 +31,18 @@ Features
     - weapons don't take up more slots as they get bigger
     - so you have fewer weapons
     - but as you progress those weapons can get bigger and better
+
 * **story**
    - blank slate with existing story removed completely
    - may be extended by other mods in future
+ 
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
+  
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
-   - some Avorion bug fixes
-  
+   - some Avorion bug fixes, particularly:
+      * make it so that wreckagecleanup.lua (or our tweaked version) actually runs
 
 Status
 ------
