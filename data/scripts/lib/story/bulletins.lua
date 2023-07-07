@@ -1,0 +1,5 @@
+function StoryBulletins.initialize()
+end
+
+
+
