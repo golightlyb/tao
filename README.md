@@ -41,8 +41,7 @@ Features
   
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
-   - some Avorion bug fixes, particularly:
-      * make it so that wreckagecleanup.lua (or our tweaked version) actually runs
+   - improved wreckagecleanup
 
 Status
 ------
