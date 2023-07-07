@@ -27,6 +27,7 @@ Features
   - fewer guns with clearer roles
   - fun coaxial weapons from the start
   - slowly-rotating main guns for battleship style combat
+  - no "accumulatingBlockHealth" - [ships can now be broken in half]([https://www.reddit.com/r/avorion/comments/o8bnst/my_most_complex_centrally_armored_ships_this/](https://www.reddit.com/r/avorion/comments/o8bnst/my_most_complex_centrally_armored_ships_this/h36f99e/))
   - vastly reduced turret slots, but...
     - weapons don't take up more slots as they get bigger
     - so you have fewer weapons
