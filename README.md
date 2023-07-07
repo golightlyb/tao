@@ -21,7 +21,7 @@ Features
   - fewer but richer asteroids
   - some expensive shaders simplified
   - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
-  - bug fixes
+  - improved wreckagecleanup
 
 * **combat**
   - fewer guns with clearer roles
@@ -42,7 +42,7 @@ Features
   
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
-   - improved wreckagecleanup
+   - some Avorion bug fixes
 
 Status
 ------
