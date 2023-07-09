@@ -9,8 +9,6 @@ It's "headline features" are:
 * massively better performance
 * quality of life improvements
 
-Status: economy and sector populations broken pending total conversion
-
 Features
 ----
 
@@ -56,6 +54,14 @@ Status
 
 WIP but should be playable.
 Manually install to your mod folder only.
+Use "/spawnpirates --now" for cannon-fodder.
+
+TODO
+----
+
+* Expand the plan cache system for boosted loading speeds
+* Remaining weapons and subsystems
+* Additional sector types
 
 
 <!--//
