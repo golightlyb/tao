@@ -16,17 +16,18 @@ Features
    - less focus on managing heaps of random loot
    - reduced trading goods from more than 150 to less than 50.
    - fewer weapons and subsystems, but with clearer roles
-   - no randomised weapon or system bonuses or variants.
+   - no randomised weapon or system bonuses or variants
    - main progression is material & rarity
 
 * **performance**
+  - plan cache system: better loading times and fewer stutters!
   - removed fighters
   - removed container fields
   - fewer wreckages
   - fewer but richer asteroids
   - some expensive shaders simplified
   - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
-  - improved wreckagecleanup
+  - fixed and improved wreckage cleanup script
 
 * **combat**
   - fewer guns with clearer roles
