@@ -54,35 +54,15 @@ Status
 ------
 
 WIP but should be playable.
-Manually install to your mod folder only.
-Use "/spawnpirates --now" for cannon-fodder.
+
+Manually install to your mod folder only for now.
 
 TODO
 ----
 
-* Expand the plan cache system for boosted loading speeds
+* Expand the plan cache system to stations for boosted loading speeds
 * Remaining weapons and subsystems
 * Additional sector types
+* Torpedo overhaul
 
 
-<!--//
-TODO
-
-Weapons:
-
-* Laser beam (turret only)
-* Pulse beam (turret only); up to 33% chance to bypass shields depending on rarity; bonus vs tech blocks, very weak vs everything else
-* Particle Lance (coaxial size 10 only)
-* Point defense (laser, flak)
-* Ion mines (basically a really slow but massive projectile)
-
-Subsystems:
-
-* Deflector (boost shield resistance against physical attacks, high energy cost)
-* Polariser (boost shield resistance against disruptor, high energy cost)
-* Reinforced armor refit (boost hull HP but decrease cargo space)
-* Low armor refit (boost cargo space & acceleration but decrease hull HP)
-* Chaff (manually activated anti-torpedo button with limited uses until recharged)
-* Cloaking device (manually activated) ?
-
-//-->
