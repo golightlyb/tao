@@ -45,7 +45,8 @@ Features
  
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
-  
+ * **new features**
+   - sectors booby-trapped with proximity mines (detectable with a subsystem!)
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
    - some Avorion bug fixes
