@@ -21,6 +21,7 @@ Features
 
 * **performance**
   - plan cache system: better loading times and fewer stutters!
+  - optimised quicker asteroid plan generation
   - removed fighters
   - removed container fields
   - fewer wreckages
@@ -45,8 +46,13 @@ Features
  
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
+  
+     
  * **new features**
    - sectors booby-trapped with proximity mines (detectable with a subsystem!)
+       + hint: try tractoring them into an enemy!!!
+  
+     
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
    - some Avorion bug fixes
