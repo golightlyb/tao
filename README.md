@@ -20,15 +20,16 @@ Features
    - main progression is material & rarity
 
 * **performance**
-  - plan cache system: better loading times and fewer stutters!
-  - optimised quicker asteroid plan generation: better loading times!
+  - **all around fewer stutters, better framerates, and shorter loading screens**
+  - plan cache system
+  - optimised asteroid plan generation speed
+  - fixed and improved wreckage cleanup script
+  - some expensive shaders simplified
+  - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
   - removed fighters
   - removed container fields
   - fewer wreckages
   - fewer but richer asteroids
-  - some expensive shaders simplified
-  - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
-  - fixed and improved wreckage cleanup script
 
 * **combat**
   - fewer guns with clearer roles
