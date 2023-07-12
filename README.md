@@ -26,10 +26,7 @@ Features
   - fixed and improved wreckage cleanup script
   - some expensive shaders simplified
   - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
-  - removed fighters
-  - removed container fields
-  - fewer wreckages
-  - fewer but richer asteroids
+  - no more fighter spam
 
 * **combat**
   - fewer guns with clearer roles
