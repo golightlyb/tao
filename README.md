@@ -9,6 +9,8 @@ It's "headline features" are:
 * massively better performance
 * quality of life improvements
 
+![screenshot of the TOA mod for Avorion](screenshot.jpg)
+
 Features
 ----
 
