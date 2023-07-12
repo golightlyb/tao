@@ -21,7 +21,7 @@ Features
 
 * **performance**
   - plan cache system: better loading times and fewer stutters!
-  - optimised quicker asteroid plan generation
+  - optimised quicker asteroid plan generation: better loading times!
   - removed fighters
   - removed container fields
   - fewer wreckages
