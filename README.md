@@ -29,6 +29,7 @@ Features
   - some expensive shaders simplified
   - salvaged and mined materials appear directly in cargo bay if possible rather than becoming entities
   - no more fighter spam
+  - fewer asteroids, but arranged in a way that *feels* much denser
 
 * **combat**
   - fewer guns with clearer roles
