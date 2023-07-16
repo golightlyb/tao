@@ -48,11 +48,8 @@ Features
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
   
-     
  * **new features**
-   - sectors booby-trapped with proximity mines (detectable with a subsystem!)
-       + hint: try tractoring them into an enemy!!!
-  
+   - proximity mines
      
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
