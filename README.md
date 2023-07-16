@@ -65,7 +65,6 @@ Manually install to your mod folder only for now.
 TODO
 ----
 
-* Expand the plan cache system to stations for boosted loading speeds
 * Remaining weapons and subsystems
 * Additional sector types
 * Torpedo overhaul
