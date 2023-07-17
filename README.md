@@ -67,6 +67,5 @@ TODO
 
 * Remaining weapons and subsystems
 * Additional sector types
-* Torpedo overhaul
 
 
