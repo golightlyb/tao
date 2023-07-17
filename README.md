@@ -68,4 +68,14 @@ TODO
 * Remaining weapons and subsystems
 * Additional sector types
 
+Known Issues
+------------
+
+## Can't refine newly mined ores or salvaged scrap in inventory
+
+Workaround: ores and scrap can be refined normally once you travel to a different sector or reload a saved game.
+
+
+
+
 
