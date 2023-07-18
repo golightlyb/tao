@@ -12,6 +12,7 @@ Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steam
 **What to expect**
 
 * a fun sandbox experience
+* a reasonably balanced "1.0"-quality release.
 
 **What not to expect**
 
@@ -63,13 +64,6 @@ Features
    - hidden stashes can now be interacted with at transporter range
    - some Avorion bug fixes
 
-Status
-------
-
-WIP but should be playable.
-
-Manually install to your mod folder only for now.
-
 Known Issues
 ------------
 
@@ -86,3 +80,31 @@ Close the spacedock dialog then open it again. The sell tab will now be populate
 This is almost complete, sorry.
 
 
+Roadmap
+-------
+
+### Short term
+
+* Fix station founding.
+* Add NPC traders to plan cache system.
+* Prepare for version 1.0 Steam workshop release!
+
+### Medium term
+
+* Balance pass
+* Additional subsystems
+* Additional sector types
+* Additional events
+* Sector anomalies
+* Combat ship size variety
+* Plan cache eviction for stale entries
+* Additional NPC weapon types & torpedos (like cannons, slow ROF only for performance)
+* Reintroduce captains and AI orders
+
+### Long term
+
+* Factions overhaul
+* Diplomacy overhaul
+* Galaxy shape overhaul
+* Textures and shaders overhaul
+* Sound effects overhaul
