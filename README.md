@@ -56,6 +56,7 @@ Features
  
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
+   - completely new station founding mechanic
   
  * **new features**
    - proximity mines
