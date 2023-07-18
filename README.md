@@ -2,12 +2,20 @@
 
 Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
 
-It's "headline features" are:
+**It's "headline features" are:**
 
 * less overwhelming loot system
 * galaxy & combat overhaul
 * massively better performance
 * quality of life improvements
+
+**What to expect**
+
+* a fun sandbox experience
+
+**What not to expect**
+
+* Any story, or tutorial. Play the original first!
 
 ![screenshot of the TOA mod for Avorion](screenshot.jpg)
 
@@ -62,12 +70,6 @@ WIP but should be playable.
 
 Manually install to your mod folder only for now.
 
-TODO
-----
-
-* Remaining weapons and subsystems
-* Additional sector types
-
 Known Issues
 ------------
 
@@ -79,6 +81,8 @@ Workaround: ores and scrap can be refined normally once you travel to a differen
 
 Close the spacedock dialog then open it again. The sell tab will now be populated properly.
 
+### Can't found stations
 
+This is almost complete, sorry.
 
 
