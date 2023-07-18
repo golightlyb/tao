@@ -75,6 +75,9 @@ Known Issues
 
 Workaround: ores and scrap can be refined normally once you travel to a different sector or reload a saved game.
 
+## Can't sell newly purchased equipment back to spacedock
+
+Close the spacedock dialog then open it again. The sell tab will now be populated properly.
 
 
 
