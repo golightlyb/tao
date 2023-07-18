@@ -95,6 +95,7 @@ Roadmap
 * Additional subsystems
 * Additional sector types
 * Additional events
+* Player-deployed mines
 * Sector anomalies
 * Combat ship size variety
 * Plan cache eviction for stale entries
