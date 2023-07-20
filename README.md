@@ -84,6 +84,14 @@ Close the spacedock dialog then open it again. The sell tab will now be populate
 This is merely a cosmetic issue with Avorion. Rest assured that weapons testing has verified that the resistance is still applied as intended.
 
 
+FAQ
+---
+
+### How do I get past the center barrier?
+
+Wormholes can now pass through the barrier.
+
+
 Roadmap
 -------
 
