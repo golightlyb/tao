@@ -78,9 +78,9 @@ Workaround: ores and scrap can be refined normally once you travel to a differen
 
 Close the spacedock dialog then open it again. The sell tab will now be populated properly.
 
-### Can't found stations
+### Additional damage resistance shows as a weakness instead
 
-This is almost complete, sorry.
+This is merely a cosmetic issue with Avorion. Rest assured that weapons testing has verified that the resistance is still applied as intended.
 
 
 Roadmap
