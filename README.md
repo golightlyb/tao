@@ -99,9 +99,9 @@ Please feel free to make a GitHub issue!
 
 Yes!
 
-* Graphics - promotional graphics, a logo, in-universe entity plans and meshes, etc.
+* Graphics - can you make promotional graphics e.g. a logo for the mod? Can you make models that can appear in the universe?
 * Video making - can you make a video of you playing the mod?
-* Financial - [sponsor me here](https://github.com/sponsors/golightlyb) montly or as a once-off
+* Financial - v1.0 was a month-long side-project. Can you [sponsor me](https://github.com/sponsors/golightlyb) montly or as a once-off for future work?
 * Programming - pull requests are welcome!
 * Social - tell your friends! :)
 
