@@ -102,7 +102,7 @@ Yes!
 * Graphics - can you make promotional graphics e.g. a logo for the mod? Can you make models that can appear in the universe?
 * Video making - can you make a video of you playing the mod?
 * Financial - v1.0 was a month-long side-project. Can you [sponsor me](https://github.com/sponsors/golightlyb) montly or as a once-off for future work?
-* Programming - pull requests are welcome!
+* Programming - pull requests are welcome! (I'll actually unzip the files at some point; I don't normally develop on Windows so don't have git installed...)
 * Social - tell your friends! :)
 
 
