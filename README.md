@@ -89,9 +89,7 @@ Roadmap
 
 ### Short term
 
-* Fix station founding.
-* Add NPC traders to plan cache system.
-* Prepare for version 1.0 Steam workshop release!
+Released!!! 🎉
 
 ### Medium term
 
@@ -101,7 +99,7 @@ Roadmap
 * Additional events
 * Player-deployed mines
 * Sector anomalies
-* Combat ship size variety
+* More combat variety
 * Plan cache eviction for stale entries
 * Additional NPC weapon types & torpedos (slow rate of fire ones only for performance)
 * Reintroduce captains and AI orders
