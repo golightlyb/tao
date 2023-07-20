@@ -60,6 +60,8 @@ Features
  * **overhaul**
    - completely new goods, systems, weapons, stations, events, sectors, etc.
    - completely new station founding mechanic
+   - pirates only attack outer sectors
+   - no Xsotan :p
   
  * **new features**
    - proximity mines
