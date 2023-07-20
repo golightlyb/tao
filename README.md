@@ -105,7 +105,7 @@ Roadmap
 * Sector anomalies
 * Combat ship size variety
 * Plan cache eviction for stale entries
-* Additional NPC weapon types & torpedos (like cannons, slow ROF only for performance)
+* Additional NPC weapon types & torpedos (slow rate of fire ones only for performance)
 * Reintroduce captains and AI orders
 
 ### Long term
