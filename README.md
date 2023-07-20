@@ -1,5 +1,7 @@
 # Tao - Total Avorion Overhaul
 
+**STATUS:** left a bit broken but probably a day away from release!
+
 Tao is a work-in-progress total-conversion mod for [Avorion](https://store.steampowered.com/app/445220/Avorion/).
 
 **It's "headline features" are:**
