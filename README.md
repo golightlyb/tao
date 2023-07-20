@@ -91,6 +91,26 @@ FAQ
 
 Wormholes can now pass through the barrier.
 
+### How do I report a bug or make a suggestion?
+
+Please feel free to make a GitHub issue!
+
+### Can I support the project?
+
+Yes!
+
+* Graphics - promotional graphics, a logo, in-universe entity plans and meshes, etc.
+* Video making - can you make a video of you playing the mod?
+* Financial - [sponsor me here](https://github.com/sponsors/golightlyb) montly or as a once-off
+* Programming - pull requests are welcome!
+* Social - tell your friends! :)
+
+
+Copying
+-------
+
+See [LICENSE.txt](./LICENSE.txt) but basically you can do whatever you want as long as you keep the credit.
+
 
 Roadmap
 -------
