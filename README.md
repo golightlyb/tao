@@ -115,9 +115,11 @@ See [LICENSE.txt](./LICENSE.txt) but basically you can do whatever you want as l
 Roadmap
 -------
 
+Released!!! 🎉
+
 ### Short term
 
-Released!!! 🎉
+* Reintroduce captains and AI orders
 
 ### Medium term
 
@@ -130,7 +132,6 @@ Released!!! 🎉
 * More combat variety
 * Plan cache eviction for stale entries
 * Additional NPC weapon types & torpedos (slow rate of fire ones only for performance)
-* Reintroduce captains and AI orders
 
 ### Long term
 
