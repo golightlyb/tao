@@ -97,7 +97,7 @@ Wormholes can now pass through the barrier.
 
 ### How do I report a bug or make a suggestion?
 
-Please feel free to make a GitHub issue!
+Please feel free to make a [GitHub issue](https://github.com/golightlyb/tao/issues) or [comment on the Steam workshop page!](https://steamcommunity.com/sharedfiles/filedetails/?id=3007442662)
 
 ### Can I support the project?
 
