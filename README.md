@@ -67,7 +67,7 @@ Features
  * **quality of life enhancements**
    - hidden stashes can now be interacted with at transporter range
    - some Avorion bug fixes
-   - resources are deposited instantly - no more waiting for refineries to process
+   - refining is instant - no more waiting at refineries
 
 Known Issues
 ------------
