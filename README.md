@@ -75,6 +75,10 @@ Known Issues
 
 This is a priority to fix. In the mean time a workaround is to exit to menu and re-enter the game, at which point you can refine resources properly.
 
+### Doesn't work with tutorial (you will have to force quit)
+
+This is a priority to fix. In the mean time, do not play the mod with the tutorial enabled.
+
 ### Can't sell newly purchased equipment back to spacedock
 
 Close the spacedock dialog then open it again. The sell tab will now be populated properly.
