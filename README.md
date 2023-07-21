@@ -71,18 +71,21 @@ Features
 Known Issues
 ------------
 
-### Can't refine newly mined ores or salvaged scrap in inventory
-
-This is a priority to fix. In the mean time a workaround is to exit to menu and re-enter the game, at which point you can refine resources properly.
-
 ### Can't sell newly purchased equipment back to spacedock
 
 Close the spacedock dialog then open it again. The sell tab will now be populated properly.
 
-### Additional damage resistance shows as a weakness instead
+### Spacedocks not able to build ships
+
+Exit to your drone with T and build by pressing B.
+
+However, you will have a lack of starting crew.
+
+Current workaround for that is to build a second small ship that has enough starting crew to be manouverable and use that as a crew shuttle.
+
+### Additional damage resistance shows as a weakness instead (can't fix)
 
 This is merely a cosmetic issue with Avorion. Rest assured that weapons testing has verified that the resistance is still applied as intended.
-
 
 FAQ
 ---
@@ -90,6 +93,14 @@ FAQ
 ### How do I get past the center barrier?
 
 Wormholes can now pass through the barrier.
+
+### How do I found a new station?
+
+Open the player menu with P and go to the new station founding tab.
+
+### How do I get more building resources / how do I refine ores and scrap?
+
+Go to an ore processor for ores, and a recycling station for scrap.
 
 ### How do I report a bug or make a suggestion?
 
