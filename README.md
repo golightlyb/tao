@@ -73,7 +73,7 @@ Known Issues
 
 ### Can't refine newly mined ores or salvaged scrap in inventory
 
-Workaround: ores and scrap can be refined normally once you travel to a different sector or reload a saved game.
+This is a priority to fix. In the mean time a workaround is to exit to menu and re-enter the game, at which point you can refine resources properly.
 
 ### Can't sell newly purchased equipment back to spacedock
 
