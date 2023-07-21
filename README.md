@@ -119,6 +119,7 @@ Released!!! 🎉
 
 ### Short term
 
+* **PRIORITY** more sector types (that one big asteroid ring is getting old!!!)
 * Reintroduce captains and AI orders
 
 ### Medium term
