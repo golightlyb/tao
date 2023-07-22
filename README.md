@@ -48,6 +48,7 @@ Features
   - no "accumulatingBlockHealth" - [ships can now be broken in half]([https://www.reddit.com/r/avorion/comments/o8bnst/my_most_complex_centrally_armored_ships_this/](https://www.reddit.com/r/avorion/comments/o8bnst/my_most_complex_centrally_armored_ships_this/h36f99e/))
   - vastly reduced turret slots, but...
     - weapons don't take up more slots as they get bigger
+    - instead, each type of weapon takes up a specific number of slots (e.g. artillery cannons take 4, dirsuptors take 2, autocannon takes 1...)
     - so you have fewer weapons
     - but as you progress those weapons can get bigger and better
 
