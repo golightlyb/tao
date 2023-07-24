@@ -51,6 +51,7 @@ Features
     - instead, each type of weapon takes up a specific number of slots (e.g. artillery cannons take 4, dirsuptors take 2, autocannon takes 1...)
     - so you have fewer weapons
     - but as you progress those weapons can get bigger and better
+  - NPC ships can equip coaxial weapons (front side only) and actually use them properly.
 
 * **story**
    - blank slate with existing story removed completely
