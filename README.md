@@ -1,6 +1,9 @@
 # Tao - Total Avorion Overhaul
 
-\[ [Workshop changelog](https://steamcommunity.com/sharedfiles/filedetails/changelog/3007442662) \]
+**\[ [Install (Steam Workshop)](https://steamcommunity.com/sharedfiles/filedetails/?id=3007442662) |
+[Changelog](https://steamcommunity.com/sharedfiles/filedetails/changelog/3007442662) |
+[Roadmap](https://github.com/users/golightlyb/projects/2) |
+[Donate/sponsor](https://github.com/sponsors/golightlyb) \]**
 
 ![version 1.0 Released](v1.0.png)
 
@@ -128,34 +131,3 @@ Copying
 -------
 
 See [LICENSE.txt](./LICENSE.txt) but basically you can do whatever you want as long as you keep the credit.
-
-
-Roadmap
--------
-
-Released!!! 🎉
-
-### Short term
-
-* **PRIORITY** more sector types (that one big asteroid ring is getting old!!!)
-* Reintroduce captains and AI orders
-
-### Medium term
-
-* Balance pass
-* Additional subsystems
-* Additional sector types
-* Additional events
-* Player-deployed mines
-* Sector anomalies
-* More combat variety
-* Plan cache eviction for stale entries
-* Additional NPC weapon types & torpedos (slow rate of fire ones only for performance)
-
-### Long term
-
-* Factions overhaul
-* Diplomacy overhaul
-* Galaxy shape overhaul
-* Textures and shaders overhaul
-* Sound effects overhaul
