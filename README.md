@@ -73,6 +73,7 @@ Features
    - hidden stashes can now be interacted with at transporter range
    - some Avorion bug fixes
    - refining is instant - no more waiting at refineries
+   - Torpedo bulk auto-purchase-and-install at spacedocks
 
 Known Issues
 ------------
